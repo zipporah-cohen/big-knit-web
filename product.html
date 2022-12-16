@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Generic - Phantom by HTML5 UP</title>
+		<title>Big Knit</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -45,6 +45,7 @@
 						<li><a href="mechanical.html">Mechanical</a></li>
 						<li><a href="electrical.html">Electrical</a></li>
 						<li><a href="firmware.html">Firmware</a></li>
+						<li><a href="how-to-knit.html">How to Knit</a></li>
 						<li><a href="bom.html">Materials and Budget</a></li>
 						<li><a href="team.html">The Team</a></li>
 					</ul>
@@ -57,10 +58,19 @@
 							
 							<span class="image left"><img src="images/system-no-yarn.png" alt="" height="350" width="auto" /></span>
 
-							<p>Big Knit works by combining firmware, electronics, and mechanical subsystems. With each piece working correctly in conjunction with the others, we get a highly-autonomous knitting machine. All the user needs to do is cast the yarn onto the needles, tell the machine how long and how wide the knit should be, and then cast off once the machine is done.</p>
+							<p>Big Knit automates the knitting process by combining firmware, electronics, and mechanical subsystems. With each piece working correctly in conjunction with the others, we get a knitting machine that knits with minimal user assistance. After telling the machine how long and wide the knit piece should be, the user casts on the yarn and sets up tension on the first row of stitches. Then, the machine moves through a simplified knitting process. 
+								<br><br>
+							A 1-D gantry system powered by a stepper motor moves a linear cam, which causes a series of needles to slide. This creates the basic knitting movement described in <a href="how-to-knit.html">How to Knit</a>. With each movement, a new loop of yarn is deposited on each needle as the old one slides off, creating a stitch. All of this movement is dictated by code coming from an Arduino Uno and hooked up to a solderless breadboard to control limit switches, drivers, and other electronics.
+							</p>
 							
-							<p>[INSERT MORE PRECISE/BETTER WORDED EXPLANATION OF THE SYSTEM] To make this happen, we have created a mounted gantry with a pulley system. The pulley is driven by a stepper motor mounted onto one end of the gantry. This linear motion drives a cam that makes a wave as it slides across knitting needles. Each needle moves within its own track and the combination of the hook and a mounted arch at the edge of the track causes the yarn to loop on and off of the needles with each pass. All of this movement is dictated by code coming from an Arduino Uno and hooked up to a solderless breadboard to control limit switches, drivers, and other electronics.</p>
-							
+							<h2>See it in Action</h2>
+							<p>Follow the links below to see the machine do it's thing!
+								<br><br>
+								<a href="https://youtu.be/jpdBOMA2spk">See the motion without yarn</a> 
+								<br>
+								<a href="https://youtu.be/SCkv_T-mBZA">See the motion with yarn</a>  
+							</p>
+
 							<h2>System Schematic</h2>
 							<p>See how it all fits together.</p>
 							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
